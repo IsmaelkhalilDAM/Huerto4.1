@@ -241,7 +241,7 @@ st.markdown(
 # Título de la aplicación
 st.markdown('<h1 class="centered-title">Huerto Inteligente 4.0</h1>', unsafe_allow_html=True)
 
-with st.expander(":blue[:rainbow-background[Normas de Uso del Programa]]"):
+with st.expander("Normas de Uso del Programa"):
     st.write("""
     <div style='background-color: #C9E3F2; padding: 10px; border-radius: 5px;'>
         <p><strong>Actualización de Datos:</strong></p>
